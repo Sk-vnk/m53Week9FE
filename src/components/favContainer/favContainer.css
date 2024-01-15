@@ -1,0 +1,37 @@
+.favContainer-wrapper{
+    height: 40vh;
+    
+    margin-left: -200px;
+    padding: -20px;
+    width: 130%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.favContainer-inner {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    background-color: rgb(41, 41, 41);
+    align-items: center;
+     
+    justify-content: center;
+}
+
+.favContainer-detail {
+    height: 80%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 1px gold;
+}
+
+
+.title, .genre, .author{
+    color: rgb(255, 127, 127);
+    display: flex;
+    margin: 40px;
+}
